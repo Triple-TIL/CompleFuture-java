@@ -19,5 +19,4 @@ jobs:
 
       - name: gradle을 빌드하면서, 테스트 코드를 확인한다.
         uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
-        with:
-          arguments: ./gradlew build
+      - run: ./gradlew build
